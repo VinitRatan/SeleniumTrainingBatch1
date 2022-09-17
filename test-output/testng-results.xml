@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17251" started-at="2022-09-17T01:15:36Z" finished-at="2022-09-17T01:15:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17251" started-at="2022-09-17T01:15:36Z" finished-at="2022-09-17T01:15:53Z">
+      <class name="com.selenium.test.cases.WindowSwitchTests">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.test.cases.WindowSwitchTests@2b98378d]" name="beforeMethod" is-config="true" duration-ms="3533" started-at="2022-09-17T01:15:36Z" finished-at="2022-09-17T01:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="windowSwitchParentWindowTest()[pri:0, instance:com.selenium.test.cases.WindowSwitchTests@2b98378d]" name="windowSwitchParentWindowTest" duration-ms="12996" started-at="2022-09-17T01:15:39Z" finished-at="2022-09-17T01:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowSwitchParentWindowTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.test.cases.WindowSwitchTests@2b98378d]" name="afterMethod" is-config="true" duration-ms="700" started-at="2022-09-17T01:15:52Z" finished-at="2022-09-17T01:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.selenium.test.cases.WindowSwitchTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

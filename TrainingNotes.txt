@@ -1,0 +1,677 @@
+
+Mac Installation:
+download.dmg file for java
+set system variables
+vi .bash_profile
+export JAVA_HOME=
+add path till home folder of java
+ 
+ save file using esc :wq
+ exit out of terminal
+ close the terminal and open another terminal
+ 
+ under system prferences you should be able to see java
+ 
+ download dmg file for eclipse and run it, once done you will be able to see eclipse
+ 
+Java: 
+
+Programming language
+OOPS based
+Development Platform
+Platform Independent
+
+JAVA is an OOPs based programming language.
+
+OOPS: Object Oriented Programming language
+
+Class
+
+Methods
+
+Variables
+
+Object
+
+Variables:
+
+Constants:
+
+camel Case is needed for greetingsOne--package name, variable name, method name
+for other namings we should follow normal nomenclature start with first letter as capital
+
+Datatype Variablename=variable value(optional);
+
+Statically programmed
+
+Datatype : Datatype will define the type of data which a vqariable can have
+Dataypes in Java:
+
+Primitive: int, char, boolean
+
+Non Primitive (Derived): String, Arrays, Collection, Any Classname 
+
+Primitive datatypes:
+Boolean (boolean) (true or false) (1 bit) it may vary based on JVM (Java virtual machine)
+Numeric: Byte, Short, Iteger, Long, Double, Float
+Character: (char): 2  Bytes  range:(0 to 2^16-1)
+/u0001
+'a','#','$','2'
+
+albhabets- single
+
+1 Byte=8 bits
+
+Numeric:
+
+Byte: 1 byte=8 bit -2^8/2 to 2^8/2 - 1= -2^7 to 2^7 - 1
+
+Short: 2 Bytes = 16 bits range: -2^15 to 2^15 - 1
+
+Integer (int) 4  Bytes=32 bits range: -2^31 to 2^31 - 1
+
+Long (long) 8 Bytes = 64 bits range: -2^63 to 2^63 - 1
+
+Float (float) 4 Bytes= 32 bits 0.0f
+
+Double (double) 8 Bytes= 64 bits 0.0d 
+
+To multiply two numbers  (*)
+
+To write a code to add, subtract and devide 2 numbers
+
+
+Methods: A method is representation of behavior or function that an object can perform/have.
+
+Actual logic is written in methods.
+
+public static void main(String[] args){
+
+
+}
+
+accessSpecifier static/nonStatic returnType methodNamae(method parameters){
+
+method body
+}
+
+accessSpecifier (Optional but if not specified the value will be set to default)
+Static/Non Static(no value))= Optional
+returnType(mandatory (atleast void should be there))
+methodName(mandatory)
+
+methodParameters (optional)
+method body: (mandatory but can be left blank)
+
+Creation of object :
+
+Classname objectReferenceName= new ClassName();
+
+Method Parameter
+
+When you want the user to specify certain values while calling the method.
+
+Types Of Variables in Java:
+
+Local Variables
+Instance Variables (Global Variable)
+Static Variable
+
+
+Local Variables: Variables with scope within the method in which they are declared
+Instance Variable: 
+Variables which can only be called using class instance i.e. Object.
+the non static methods within the same class need not create instance to access instance variables.
+
+Static Variables: 
+We need to use the keyword Static to create a static variable. They can be called using class refeerence or directly using classname.
+The static methods of the same class can directly call the static variables without using reference.
+
+
+Conditional Statements:
+If Conditions- True
+If else- True
+While condittions- False
+A loop- False
+
+If
+If else
+If else if else
+Neested If else
+
+Switch Case
+
+If:
+  if(condition){
+  
+  body} (Curly braces optional if onl;y one statement needs to be executed)
+  
+  
+If else:
+
+if(condition){
+body
+}
+else{
+body
+}
+
+if else if else
+
+if(condition){
+body}
+else if(condition){
+
+body}
+
+else{
+
+body}
+
+nested if else:
+
+if(condition){
+
+if(condition){body}
+else{body}
+
+}
+
+else if(condition){
+if(condition){body}
+else{body}
+
+}
+
+else{
+if(condition){body}
+else if (condition){
+body}
+else{body}
+}
+
+Switch Case:
+
+switch(variable){
+ case "a":
+  syso(value);
+  break;
+  
+ case "b":
+   syso(value);
+   break;
+   
+ default:
+   syso(value);
+   break;
+ 
+
+
+}
+
+
+Loops:
+Repeating
+Iteration
+
+
+
+initialization
+termination condition
+increment/ decrement counter
+
+for loop
+while loop
+do while loop
+
+
+for loop:
+
+for(initialization;termination condition; increment/decrement counter){
+
+body
+}
+
+for(int i=1;i<=10;i++){
+syso(i);
+}
+
+while loop:
+
+initialization;
+
+while(condition){
+body;
+increment/decrement counter;
+}
+
+int i=1;
+
+while(i<=10){
+syso(i);
+i++ (or i=i+1);
+}
+
+
+do while
+
+initialization;
+
+do{
+body;
+increment/decrement counter;
+}while(condition);
+
+int i=1;
+
+do{
+syso(i);
+increment/decrement counter;
+}while(i>=10);
+
+
+Static Keyword and Static Variables
+
+
+class memory (stack memory)(variables methods associated with class)
+
+heap memory (object memory) (store data for each object)
+
+
+Arrays:
+Arrays is a non primitive data type
+
+int math=40;
+int science=45;
+int english= 38;
+
+Array is collection of multiple values of same data type.
+Size of array needs to be specified at the time of declaration
+
+int[] integerArray=new int[5];
+
+datatype[] variableName=new datatype[array size];
+
+int integerArray[]=new int[5];
+datatype variableName[]=new datatype[array size];
+
+int[] integerArray={34,20,4,67,8}
+
+The index of an array will start from 0 and end at size-1;
+Use variable length to get the size of array
+
+Arrays: It is a utility class present in java.util package and consists of all the utilit method that can be used by an array
+
+given an integer array of marks find out the hghest and second highest marks
+
+
+
+
+comparison using loop
+
+Constructor:
+Initialization of objects
+
+
+Constructor is a java concept/feature used to initialize an object
+
+Constructor should be created in a fashion similar to method
+But the method name should be exactly same as class
+We should not specify return type for a constructor
+A constructor can never be static
+In case of constructor chaining this() and super() has to be the first statement
+
+Types of constructor:
+Constructor can be of two types:
+Default Constructor/ Unparameterized constructor
+Parameterized Constructor/ customized constructor
+
+
+Constructor Chaining:
+in the same class: this()
+between parent and child constructor: super()
+
+
+
+A constructor will always return instance of the object by default and does not allow user to force it to return anything else
+
+String:
+
+It is a sequesnce of characters
+It is a non primitive data type
+
+String variableName= "dhsgdh";- String pool/ String constant pool
+
+String variableName=new String("dhsgdh");-- Heap Memory
+
+String var1=new String("var");
+String var2=new String("var");
+
+String var1="var";
+String var2="var";
+
+var1==var2= true in case of string pool
+var1==var2= false in case of object
+
+comapreTo();
+equals();
+
+Concatenation:
++ operator
+concate() method
+
+mutability;
+
+String is immutable
+
+compareTo()= +integer if greater, 0 if equal, -integer if small: will return integer
+equals(): true if equal else false : will return boolean
+
+
+Substring:
+Part of string
+Substring() method is used to fetch a part of actual string
+position: 
+initial index: start point for substring
+final index: is optional. Required if we want to fetch string from mid. Will fetch string till n-1 position
+
+Access Modifier:
+Access modifiers are used to specify the level at which a class, method or vaiable can be accessed.
+
+OOPs Concepts for Java:
+Inheritence---
+Polymorphism
+Abstraction
+Encapsulation---
+
+Encapsulation:
+HIding the implementation
+Collecting everything in a single unit
+
+
+Encapsulation is an OOPs concept wherein we combine all methods and variables into a single unit.
+Any JAVA class is an example of encapsulation.
+
+Encapsulation -Capsule - Capsule is a small pill/container with multiple medicines.
+
+Security 
+Hiding Implementation (data hiding and abstraction)
+
+Encapsulation is an OOPs concept through which we can have data hiding and abstraction at the same time.
+
+
+Inheritence:
+
+Inherit data from one class to another
+
+
+Inheritence is the OOPs concept via which on class (child) can access all the properties and behavior of another class(parent)
+It creates a child parent relationship or (is a) relationship in JAVA
+
+Single Inheritence: one parent will have one child
+Multilevel inheritence: child inherits from parent, parent inherits from superparent and so on
+Hierarchial Inheritence: One parent can have multiple child
+
+The above inheritence are supported by java directly using class
+
+Multiple Inheritence: When a child tries to inherit properties aand behavior from multiple parents.
+
+Not possible through class. We need to use interface for multiple inheritence.
+
+
+Polymorphism:
+Many forms
+
+
+
+Poly: Many
+Morph: Forms
+
+Many forms of the same thing
+
+Creating/ Using same method for different purpose is polymorphism in Java.
+
+Types of Polymorphism: Static Polymorhism and Dynamic Polymorphism.
+
+Static Polymorphism: When we know the method that will be associated with object at compile time it is static polymorphism.
+Overloading is an example for Static Polymorphism
+
+Dynamic Polymorphism:When we will be able to know the method which will be associated with object only at run time, it is known as dynamic polymorphism.
+Example of dynamic polymorphism is overriding.
+
+Overloading: In case of overloading we need to have same method name but different method signature.
+We can change method signature by :
+Varying type of parameters
+Varying order of parameters
+Varying number of parameters
+
+Overriding:
+Overriding is OOPs concept wherein child class methods can override/ re-write the implementation of parent class.
+Both method name and method signature needs to be same fopr overriding.
+
+Abstraction:
+
+Abstraction in Java:
+
+method will store the implementation.
+
+In case of abstraction we will not add implemtation in pour method. 
+To make the method as abstract in Java we will have to remove the body.
+
+public abstract void method();
+
+Abstarction in JAVA can be achieved by two ways:
+Abstract Class (Partial Abstraction):No,Abstract class may or may not have an abstarct method
+Interface (100 Percent abstraction): All methods will be abstract
+
+
+Multiple Inheritence:
+
+class CatFamily{
+
+public void walk(){
+syso("cat family walks")
+}
+}
+
+class DogFamily{
+public void walk(){
+syso("dog family walks")
+}
+}
+
+class Child extends  DogFamily, catFamily{
+
+public static void main(String[] args){
+Chaild child1=new Child();
+child.walk();
+
+}
+}
+
+
+Deadly Diamond of Death
+
+
+
+
+interface CatFamily{
+public  abstract void walk();
+
+}
+
+interface DogFamily{
+public  abstract void walk();
+
+}
+
+class child implements CatFamily, DogFamily{
+
+public void walk(){
+syso("animal walk")
+}
+
+public static void main(String[] args){
+Chaild child1=new Child();
+child.walk();
+
+}
+
+}
+
+Exception Handling:
+
+Exception:
+Something unexpected
+Errors
+
+Exception is any abnormal/ unnatural situation
+
+Any problem situation can be termed as exception
+
+Exception and Error
+Exception are problems which can be handled through code(Eg: Arithmetic exception)
+Errors are problems which can not be handled. (Eg: Memory out of bound exception)
+
+Checked Exception and Unchecked Exception
+
+When the compiler forces us to handl;e an exception before execution such exceptions come under checked exception.
+Eg: File not found exception, Input Output exception(IO Exception) 
+
+Unchecked Exceptions are those for which the compiler can not force or warn you to handle.
+Eg: ARithmetic Exception, Array Index Out of bound etc.
+
+Exception Handling:
+try-catch block finally(optional)
+throws
+
+throw
+
+
+
+
+block syntax:
+
+keyword{
+
+
+}
+
+
+Selenium:
+
+It is a web based automation tool
+
+
+Yes
+
+Selenium IDE: Record and Run Tool (Could only be used with Firefox)
+Selnium RC: Selenium 2- HTML Web Driver Based
+Selenium WebDriver Selenium 3: Selenium Webdriver+ Selenium RC
+Selenium GRID: Parallel Execution 
+
+Setup:
+Selenium WebDriver Dependency
+TestNG
+
+Demo Selenium Automation Web Apps:
+
+1. http://automationpractice.com/index.php
+2. http://www.freecrm.com
+3. https://www.hubspot.com/
+4. https://www.gumtree.com/
+5. https://mailchimp.com/
+6. https://www.freshworks.com
+7. https://www.vtiger.com
+
+Frame Switch URL:
+https://the-internet.herokuapp.com/nested_frames
+https://the-internet.herokuapp.com/iframe
+
+Alerts:
+https://the-internet.herokuapp.com/javascript_alerts
+
+Windows:
+http://www.naukri.com/
+
+Select Practice URLs:
+https://www.tutorialspoint.com/selenium/selenium_automation_practice.htm
+
+
+
+navigate:
+to()- fetch the URL
+forward() - go to next page in fporward direction
+back()- go to next page in backward direction
+refresh()- Refresh the current web page.
+
+Locator:
+xpath
+to locate some elements
+
+Absolute: Hard coded value of attributes need to be used.
+id
+class
+linkedText
+partialLinkedText 
+
+Derived:Customized by developer to create locator using multiple tags and attributes
+xpath
+cssSelector
+
+
+Open gmail.com
+Verify if Sigin In page is displayed-- later
+Enter User ID
+Enter Password
+Click login
+Verify if you mail box is opened
+
+
+ways to close browser
+close
+quit
+
+types of xpath:
+
+Absolute
+Relative
+
+Alerts and Frames:
+
+Alerts:
+
+Frames:
+iframe
+frame
+frameset
+
+name;
+id
+index
+
+
+Dropdown Selection using Select class
+
+selectByValue()
+selectByVisbleText()
+selectByIndex()
+
+Action Class:
+Action 
+
+Window Switch:
+
+Data Driven Framework
+Keyword Driven Framework
+Hybrid Framework
+
+Cumber Framework
+
+
+
+
+
+
+
+
